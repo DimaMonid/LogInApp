@@ -23,7 +23,7 @@ final class TabBarViewController: UITabBarController {
     
     private func transferData() {
         guard let viewControllers else { return }
-        
+      
         viewControllers.forEach {
             if let welcomeVC = $0 as? WelcomeViewController {
                 welcomeVC.user = user

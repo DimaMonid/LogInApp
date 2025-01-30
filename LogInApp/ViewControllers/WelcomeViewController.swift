@@ -18,7 +18,7 @@ final class WelcomeViewController: UIViewController {
         view.addVerticalGradientLayer()
         welcomeLabel.text = """
             Welcome, \(user.userName)!
-            My name is \(user.person.fullName).
+            Меня зовут \(user.person.fullName).
             """
 
     }
